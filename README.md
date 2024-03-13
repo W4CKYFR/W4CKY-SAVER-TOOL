@@ -34,3 +34,5 @@ Please use this tool responsibly and ensure the security of your information at 
 
 Thank you for using the W4CKY Saver Tool!
 ```
+discord server with the tool:
+https://discord.gg/8nbnSTyNDQ
