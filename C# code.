@@ -1,0 +1,172 @@
+//Build this in to an exe and it will work.
+
+using System;
+using System.ComponentModel;
+using System.Diagnostics.CodeAnalysis;
+using System.Runtime.CompilerServices;
+
+namespace Randomstuff
+{
+
+    class Program
+    {
+
+        static void Main(string[] args)
+        {
+            int x; 
+
+            x = 7551;
+
+            int y = 4470; 
+
+            int z = x + y;
+            
+            bool alive = true; 
+         
+            char symbol = '@';
+            String name = "W4CKY"; 
+
+
+            const double pi = 3.14159; 
+
+            double a = 3.14;
+            int b = Convert.ToInt32(a);
+
+
+            int c = 123;
+            double d = Convert.ToDouble(c) + 0.5;
+
+            int e = 321;
+            String f = Convert.ToString(e);
+
+            String g = "¤";
+            char h = Convert.ToChar(g);
+
+            String i = "true";
+            bool j = Convert.ToBoolean(i);
+
+            Console.WriteLine("██╗    ██╗██╗  ██╗ ██████╗██╗  ██╗██╗   ██╗    ███████╗ █████╗ ██╗   ██╗███████╗██████╗ \r\n██║    ██║██║  ██║██╔════╝██║ ██╔╝╚██╗ ██╔╝    ██╔════╝██╔══██╗██║   ██║██╔════╝██╔══██╗\r\n██║ █╗ ██║███████║██║     █████╔╝  ╚████╔╝     ███████╗███████║██║   ██║█████╗  ██████╔╝\r\n██║███╗██║╚════██║██║     ██╔═██╗   ╚██╔╝      ╚════██║██╔══██║╚██╗ ██╔╝██╔══╝  ██╔══██╗\r\n╚███╔███╔╝     ██║╚██████╗██║  ██╗   ██║       ███████║██║  ██║ ╚████╔╝ ███████╗██║  ██║\r\n ╚══╝╚══╝      ╚═╝ ╚═════╝╚═╝  ╚═╝   ╚═╝       ╚══════╝╚═╝  ╚═╝  ╚═══╝  ╚══════╝╚═╝  ╚═╝\r\n                                                                                        ");
+            Thread.Sleep(1000);
+            Console.WriteLine("Press any button to continue.");
+
+            Console.ReadKey();
+
+
+
+            Console.WriteLine("\nName here: ");
+            String Coolname = Console.ReadLine();
+
+
+            Console.WriteLine("Hello " + Coolname);
+
+            Console.WriteLine("Username here: ");
+            String Username = Console.ReadLine();
+
+            Console.WriteLine("Your Username is " + symbol + Username);
+
+            Console.WriteLine("Email here: ");
+            String Email = Console.ReadLine();
+
+
+
+            Console.WriteLine("Age here: ");
+            int Coolage = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("You are " + Coolage + " years old");
+
+            Console.WriteLine("Website name here: ");
+            String Website = Console.ReadLine();
+
+
+            Console.WriteLine("Your website is: " + Website);
+
+            Console.WriteLine("Password here: ");
+            String Password = Console.ReadLine();
+
+            Console.WriteLine("Are you a bot? (yes/no)");
+            string response = Console.ReadLine();
+
+            if (response.ToLower() == "yes")
+            {
+                Console.WriteLine("Goodbye, bot!");
+
+                Environment.Exit(0);
+            }
+            else if (response.ToLower() == "no")
+
+                Console.WriteLine("Welcome!");
+
+            Console.Write("Loading");
+            Thread.Sleep(1000);
+            Console.Write(".");
+            Thread.Sleep(1000);
+            Console.Write(".");
+            Thread.Sleep(1000);
+            Console.Write(".");
+
+
+
+
+            Console.WriteLine("\nName is: " + Coolname);
+            Thread.Sleep(1000);
+            Console.Write(".");
+            Thread.Sleep(100);
+            Console.Write(".");
+            Thread.Sleep(100); Console.Write(".");
+            Console.WriteLine("\nYour age is: " + Coolage);
+            Thread.Sleep(100); Console.Write(".");
+            Thread.Sleep(100); Console.Write(".");
+            Thread.Sleep(100); Console.Write(".");
+            Console.WriteLine("\nUsername is: " + symbol + Username);
+            Thread.Sleep(100); Console.Write(".");
+            Thread.Sleep(100); Console.Write(".");
+            Thread.Sleep(100); Console.Write(".");
+            Console.WriteLine("\nEmail is: " + Email);
+            Thread.Sleep(100); Console.Write(".");
+            Thread.Sleep(100); Console.Write(".");
+            Thread.Sleep(100); Console.Write(".");
+            Console.WriteLine("\nWebsite is: " + Website);
+            Thread.Sleep(100); Console.Write(".");
+            Thread.Sleep(100); Console.Write(".");
+            Thread.Sleep(100); Console.Write(".");
+            Console.WriteLine("\nPassword is: " + Password);
+            Thread.Sleep(100); Console.Write(".");
+            Thread.Sleep(100); Console.Write(".");
+            Thread.Sleep(100); Console.Write(".");
+            Thread.Sleep(100);
+            Console.WriteLine("\nCurrently alive: " + alive);
+            Thread.Sleep(100); Console.Write(".");
+            Thread.Sleep(100); Console.Write(".");
+            Thread.Sleep(100); Console.Write(".");
+            Thread.Sleep(100);
+            Console.WriteLine("\nYour symbol is: " + symbol);
+            Thread.Sleep(100);
+
+            Console.WriteLine("Making a folder"); Thread.Sleep(1000); Console.Write("."); Thread.Sleep(1000); Console.Write(".");Thread.Sleep(1000); Console.Write(".");
+
+            string filePath = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments) + @"\UserAccounts.txt";
+
+            
+            using (StreamWriter writer = new StreamWriter(filePath, true))
+            {
+                writer.WriteLine("-------------------------------------------");
+                writer.WriteLine("██╗    ██╗██╗  ██╗ ██████╗██╗  ██╗██╗   ██╗    ███████╗ █████╗ ██╗   ██╗███████╗██████╗ \r\n██║    ██║██║  ██║██╔════╝██║ ██╔╝╚██╗ ██╔╝    ██╔════╝██╔══██╗██║   ██║██╔════╝██╔══██╗\r\n██║ █╗ ██║███████║██║     █████╔╝  ╚████╔╝     ███████╗███████║██║   ██║█████╗  ██████╔╝\r\n██║███╗██║╚════██║██║     ██╔═██╗   ╚██╔╝      ╚════██║██╔══██║╚██╗ ██╔╝██╔══╝  ██╔══██╗\r\n╚███╔███╔╝     ██║╚██████╗██║  ██╗   ██║       ███████║██║  ██║ ╚████╔╝ ███████╗██║  ██║\r\n ╚══╝╚══╝      ╚═╝ ╚═════╝╚═╝  ╚═╝   ╚═╝       ╚══════╝╚═╝  ╚═╝  ╚═══╝  ╚══════╝╚═╝  ╚═╝\r\n                                                                                        ");
+                writer.WriteLine("-------------------------------------------");
+                writer.WriteLine("Name; " + Coolname);
+                writer.WriteLine("Username: " + Username);
+                writer.WriteLine("Email: " + Email);
+                writer.WriteLine("Password: " + Password);
+                writer.WriteLine("Age: " + Coolage);
+                writer.WriteLine("-------------------------------------------");
+            }
+
+            Console.WriteLine("\nYour username and email have been saved to UserAccounts.txt in your Documents folder.");
+
+
+            Console.ReadKey();
+
+
+                
+            }
+        }
+    }
