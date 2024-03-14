@@ -20,6 +20,8 @@ namespace Randomstuff
             int y = 4470; 
 
             int z = x + y;
+
+
             
             bool alive = true; 
          
@@ -161,6 +163,8 @@ namespace Randomstuff
             }
 
             Console.WriteLine("\nYour username and email have been saved to UserAccounts.txt in your Documents folder.");
+            Thread.Sleep(100);
+            Console.WriteLine("Press any button to quit: ");
 
 
             Console.ReadKey();
