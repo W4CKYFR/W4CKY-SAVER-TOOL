@@ -1,9 +1,3 @@
-//Build this in to an exe and it will work.
-
-using System;
-using System.ComponentModel;
-using System.Diagnostics.CodeAnalysis;
-using System.Runtime.CompilerServices;
 
 namespace Randomstuff
 {
